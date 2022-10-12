@@ -1,0 +1,74 @@
+body, ul, li, h1, h2 {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+header {
+	background-color: #f63232;
+	padding: 20px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+h1 {
+	color: white;
+	border: 8px solid white;
+	display: inline-block;
+	padding: 6px 12px;
+	border-radius: 36px;
+}
+
+.banner img {
+	max-width: 100%;
+}
+
+.banner .welcome {
+	background: #feb614;
+	margin: 20px;
+	padding: 30px;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+}
+
+.banner h2 {
+	font-size: 4em;
+	color: white;
+}
+
+nav {
+	background-color: #f4f4f4;
+	padding: 20px;
+	top: 106px;
+	z-index: 1;
+}
+
+nav ul {
+	white-space: nowrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+nav li {
+	width: 25%;
+	display: inline-block;
+	font-size: 24px;
+}
+
+nav li a {
+	color: red;
+	text-decoration: none;
+}
+
+main {
+	max-width: 100%;
+	width: 1200px;
+	margin: 80px auto;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
